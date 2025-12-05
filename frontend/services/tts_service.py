@@ -1,9 +1,8 @@
 """Text-to-Speech service using ElevenLabs"""
-from elevenlabs.client import ElevenLabs
-from elevenlabs import VoiceSettings
+from elevenlabs import ElevenLabs
 from config import Config
 import streamlit as st
-from utils.logger import logger  # ✅ Import logger
+from utils.logger import logger
 
 
 class TTSService:
@@ -12,34 +11,26 @@ class TTSService:
     def __init__(self):
         logger.info("Initializing TTSService...")
         self.client = ElevenLabs(api_key=Config.ELEVENLABS_API_KEY)
-        logger.info(f"ElevenLabs client initialized with voice: {Config.ELEVENLABS_VOICE_ID}")
+        self.voice_id = Config.ELEVENLABS_VOICE_ID
+        logger.info(f"ElevenLabs client initialized with voice: {self.voice_id}")
     
     def synthesize_speech(self, text: str) -> bytes:
         """
-        Convert text to speech audio
-        Args: text - Text to convert
+        Convert text to speech
+        Args: text - Text to convert to speech
         Returns: Audio bytes (MP3 format)
         """
         logger.info(f"Synthesizing speech for text: {text[:100]}...")
         
         try:
-            logger.debug(f"Using model: {Config.ELEVENLABS_MODEL}")
-            
             # Generate audio using ElevenLabs
-            audio_generator = self.client.generate(
+            audio_generator = self.client.text_to_speech.convert(
+                voice_id=self.voice_id,
                 text=text,
-                voice=Config.ELEVENLABS_VOICE_ID,
-                model=Config.ELEVENLABS_MODEL,
-                voice_settings=VoiceSettings(
-                    stability=0.5,
-                    similarity_boost=0.75,
-                    style=0.0,
-                    use_speaker_boost=True
-                )
+                model_id="eleven_multilingual_v2"
             )
             
-            # Convert generator to bytes
-            logger.debug("Converting audio generator to bytes...")
+            # Collect all audio chunks
             audio_bytes = b"".join(audio_generator)
             
             logger.info(f"Speech synthesis successful. Audio size: {len(audio_bytes)} bytes")

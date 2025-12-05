@@ -1,6 +1,5 @@
 """LLM service using Google Gemini"""
 import google.generativeai as genai
-from google.genai import types
 from config import Config
 import streamlit as st
 from utils.logger import logger
@@ -85,15 +84,15 @@ class LLMService:
             
             logger.debug("Sending audio to Gemini for transcription...")
             
-            # Use generate_content with explicit config for higher output tokens
+            # Use generate_content with explicit config
             response = transcription_model.generate_content(
                 [
                     "Transcribe this audio to text. Only return the exact spoken words, nothing else.",
                     {"mime_type": "audio/wav", "data": audio_bytes}
                 ],
                 generation_config=genai.types.GenerationConfig(
-                    max_output_tokens=2000,  # Increased limit to prevent MAX_TOKENS error
-                    temperature=0.1,  # Low temperature for accurate transcription
+                    max_output_tokens=2000,
+                    temperature=0.1,
                 )
             )
             

@@ -1,0 +1,16 @@
+# FastAPI Framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+pydantic==2.10.3
+python-multipart==0.0.20
+
+# AI Services
+google-generativeai==0.8.3
+elevenlabs==1.11.0
+
+# Environment & Utilities
+python-dotenv==1.0.1
+requests==2.32.3
+
+# CORS (for frontend communication)
+fastapi-cors==0.0.6

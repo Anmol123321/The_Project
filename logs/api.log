@@ -1,0 +1,22 @@
+2025-12-05 23:57:35,565 | services.llm_service | INFO | __init__:31 | LLMService initialized
+2025-12-05 23:57:35,591 | services.llm_service | INFO | __init__:31 | LLMService initialized
+2025-12-05 23:57:35,606 | __main__ | INFO | <module>:15 | Configuration validated
+2025-12-05 23:57:35,616 | __main__ | INFO | <module>:40 | FastAPI app initialized
+2025-12-05 23:57:35,943 | uvicorn.error | INFO | __init__:317 | Will watch for changes in these directories: ['D:\\The_Project']
+2025-12-05 23:57:35,944 | uvicorn.error | INFO | bind_socket:523 | Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-12-05 23:57:35,945 | uvicorn.error | INFO | startup:79 | Started reloader process [30392] using WatchFiles
+2025-12-05 23:57:40,965 | services.llm_service | INFO | __init__:31 | LLMService initialized
+2025-12-05 23:57:40,983 | services.llm_service | INFO | __init__:31 | LLMService initialized
+2025-12-05 23:57:40,990 | __mp_main__ | INFO | <module>:15 | Configuration validated
+2025-12-05 23:57:40,998 | __mp_main__ | INFO | <module>:40 | FastAPI app initialized
+2025-12-05 23:57:41,227 | main | INFO | <module>:15 | Configuration validated
+2025-12-05 23:57:41,234 | main | INFO | <module>:40 | FastAPI app initialized
+2025-12-05 23:57:41,235 | uvicorn.error | INFO | _serve:82 | Started server process [10836]
+2025-12-05 23:57:41,236 | uvicorn.error | INFO | startup:48 | Waiting for application startup.
+2025-12-05 23:57:41,236 | main | INFO | startup_event:44 | ==================================================
+2025-12-05 23:57:41,237 | main | INFO | startup_event:45 | AI Tutor Voice Assistant API started
+2025-12-05 23:57:41,237 | main | INFO | startup_event:46 | Version: 1.0.0
+2025-12-05 23:57:41,238 | main | INFO | startup_event:47 | Logs location: logs/api.log
+2025-12-05 23:57:41,238 | main | INFO | startup_event:48 | ==================================================
+2025-12-05 23:57:41,238 | uvicorn.error | INFO | startup:62 | Application startup complete.
+2025-12-05 23:57:41,296 | watchfiles.main | INFO | _log_changes:308 | 4 changes detected

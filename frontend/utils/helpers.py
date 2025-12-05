@@ -11,6 +11,9 @@ def init_session_state():
     
     if 'last_audio_response' not in st.session_state:
         st.session_state.last_audio_response = None
+    
+    if 'backend_connected' not in st.session_state:
+        st.session_state.backend_connected = False
 
 def display_chat_history():
     """Display chat message history"""
