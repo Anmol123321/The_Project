@@ -1,0 +1,459 @@
+2025-12-05 19:46:02 | voice_tutor | INFO | <module>:19 | ==================================================
+2025-12-05 19:46:02 | voice_tutor | INFO | <module>:20 | Application started
+2025-12-05 19:46:02 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:46:02 | voice_tutor | INFO | <module>:25 | API keys validated
+2025-12-05 19:46:02 | voice_tutor | INFO | <module>:29 | Session state initialized
+2025-12-05 19:46:03 | voice_tutor | INFO | get_services:35 | Initializing services...
+2025-12-05 19:46:03 | voice_tutor | INFO | __init__:13 | Initializing LLMService...
+2025-12-05 19:46:03 | voice_tutor | INFO | __init__:17 | Gemini configured with model: gemini-2.5-flash
+2025-12-05 19:46:03 | voice_tutor | INFO | __init__:36 | Chat session started successfully
+2025-12-05 19:46:03 | voice_tutor | INFO | __init__:13 | Initializing TTSService...
+2025-12-05 19:46:03 | voice_tutor | INFO | __init__:15 | ElevenLabs client initialized with voice: pNInz6obpgDQGcFmaJgB
+2025-12-05 19:46:03 | voice_tutor | INFO | <module>:43 | All services initialized successfully
+2025-12-05 19:46:03 | voice_tutor | DEBUG | <module>:158 | No messages in history - showing welcome message
+2025-12-05 19:46:03 | voice_tutor | DEBUG | <module>:175 | App render complete
+2025-12-05 19:46:10 | voice_tutor | INFO | <module>:19 | ==================================================
+2025-12-05 19:46:10 | voice_tutor | INFO | <module>:20 | Application started
+2025-12-05 19:46:10 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:46:10 | voice_tutor | INFO | <module>:25 | API keys validated
+2025-12-05 19:46:10 | voice_tutor | INFO | <module>:29 | Session state initialized
+2025-12-05 19:46:10 | voice_tutor | INFO | <module>:43 | All services initialized successfully
+2025-12-05 19:46:10 | voice_tutor | INFO | <module>:59 | Audio input detected
+2025-12-05 19:46:10 | voice_tutor | INFO | transcribe_audio:68 | Starting audio transcription...
+2025-12-05 19:46:10 | voice_tutor | DEBUG | transcribe_audio:73 | Reading audio from UploadedFile object
+2025-12-05 19:46:10 | voice_tutor | INFO | transcribe_audio:79 | Audio data size: 374444 bytes
+2025-12-05 19:46:10 | voice_tutor | DEBUG | transcribe_audio:81 | Sending audio to Gemini for transcription...
+2025-12-05 19:46:18 | voice_tutor | INFO | transcribe_audio:88 | Transcription successful: How are you
+2025-12-05 19:46:18 | voice_tutor | INFO | <module>:66 | Transcription complete: How are you
+2025-12-05 19:46:18 | voice_tutor | DEBUG | <module>:71 | User message added to chat history
+2025-12-05 19:46:18 | voice_tutor | INFO | get_response:44 | User message received: How are you...
+2025-12-05 19:46:18 | voice_tutor | DEBUG | get_response:47 | Sending message to Gemini...
+2025-12-05 19:46:20 | voice_tutor | INFO | get_response:50 | AI response received: I'm doing great, thank you for asking! I'm ready and happy to help you learn today. What's on your m...
+2025-12-05 19:46:20 | voice_tutor | DEBUG | get_response:51 | Full response: I'm doing great, thank you for asking! I'm ready and happy to help you learn today. What's on your mind?
+2025-12-05 19:46:20 | voice_tutor | INFO | <module>:77 | AI response generated: I'm doing great, thank you for asking! I'm ready and happy to help you learn today. What's on your m...
+2025-12-05 19:46:20 | voice_tutor | DEBUG | <module>:79 | Assistant message added to chat history
+2025-12-05 19:46:20 | voice_tutor | INFO | synthesize_speech:23 | Synthesizing speech for text: I'm doing great, thank you for asking! I'm ready and happy to help you learn today. What's on your m...
+2025-12-05 19:46:20 | voice_tutor | DEBUG | synthesize_speech:26 | Using model: eleven_flash_v2_5
+2025-12-05 19:46:20 | voice_tutor | DEBUG | synthesize_speech:42 | Converting audio generator to bytes...
+2025-12-05 19:46:21 | voice_tutor | INFO | synthesize_speech:45 | Speech synthesis successful. Audio size: 104116 bytes
+2025-12-05 19:46:21 | voice_tutor | INFO | <module>:86 | TTS generation successful
+2025-12-05 19:46:21 | voice_tutor | INFO | <module>:92 | Conversation count: 1
+2025-12-05 19:46:21 | voice_tutor | INFO | <module>:19 | ==================================================
+2025-12-05 19:46:21 | voice_tutor | INFO | <module>:20 | Application started
+2025-12-05 19:46:21 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:46:21 | voice_tutor | INFO | <module>:25 | API keys validated
+2025-12-05 19:46:21 | voice_tutor | INFO | <module>:29 | Session state initialized
+2025-12-05 19:46:21 | voice_tutor | INFO | <module>:43 | All services initialized successfully
+2025-12-05 19:46:21 | voice_tutor | INFO | <module>:59 | Audio input detected
+2025-12-05 19:46:21 | voice_tutor | INFO | transcribe_audio:68 | Starting audio transcription...
+2025-12-05 19:46:21 | voice_tutor | DEBUG | transcribe_audio:73 | Reading audio from UploadedFile object
+2025-12-05 19:46:21 | voice_tutor | INFO | transcribe_audio:79 | Audio data size: 374444 bytes
+2025-12-05 19:46:21 | voice_tutor | DEBUG | transcribe_audio:81 | Sending audio to Gemini for transcription...
+2025-12-05 19:46:25 | voice_tutor | INFO | transcribe_audio:88 | Transcription successful: How are you
+2025-12-05 19:46:25 | voice_tutor | INFO | <module>:66 | Transcription complete: How are you
+2025-12-05 19:46:25 | voice_tutor | DEBUG | <module>:71 | User message added to chat history
+2025-12-05 19:46:25 | voice_tutor | INFO | get_response:44 | User message received: How are you...
+2025-12-05 19:46:25 | voice_tutor | DEBUG | get_response:47 | Sending message to Gemini...
+2025-12-05 19:46:27 | voice_tutor | INFO | get_response:50 | AI response received: I'm still doing well, thanks! How can I help you today? Is there something specific you'd like to le...
+2025-12-05 19:46:27 | voice_tutor | DEBUG | get_response:51 | Full response: I'm still doing well, thanks! How can I help you today? Is there something specific you'd like to learn or discuss?
+2025-12-05 19:46:27 | voice_tutor | INFO | <module>:77 | AI response generated: I'm still doing well, thanks! How can I help you today? Is there something specific you'd like to le...
+2025-12-05 19:46:27 | voice_tutor | DEBUG | <module>:79 | Assistant message added to chat history
+2025-12-05 19:46:27 | voice_tutor | INFO | synthesize_speech:23 | Synthesizing speech for text: I'm still doing well, thanks! How can I help you today? Is there something specific you'd like to le...
+2025-12-05 19:46:27 | voice_tutor | DEBUG | synthesize_speech:26 | Using model: eleven_flash_v2_5
+2025-12-05 19:46:27 | voice_tutor | DEBUG | synthesize_speech:42 | Converting audio generator to bytes...
+2025-12-05 19:46:28 | voice_tutor | INFO | synthesize_speech:45 | Speech synthesis successful. Audio size: 111222 bytes
+2025-12-05 19:46:28 | voice_tutor | INFO | <module>:86 | TTS generation successful
+2025-12-05 19:46:28 | voice_tutor | INFO | <module>:92 | Conversation count: 2
+2025-12-05 19:46:28 | voice_tutor | INFO | <module>:19 | ==================================================
+2025-12-05 19:46:28 | voice_tutor | INFO | <module>:20 | Application started
+2025-12-05 19:46:28 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:46:28 | voice_tutor | INFO | <module>:25 | API keys validated
+2025-12-05 19:46:28 | voice_tutor | INFO | <module>:29 | Session state initialized
+2025-12-05 19:46:28 | voice_tutor | INFO | <module>:43 | All services initialized successfully
+2025-12-05 19:46:28 | voice_tutor | INFO | <module>:59 | Audio input detected
+2025-12-05 19:46:28 | voice_tutor | INFO | transcribe_audio:68 | Starting audio transcription...
+2025-12-05 19:46:28 | voice_tutor | DEBUG | transcribe_audio:73 | Reading audio from UploadedFile object
+2025-12-05 19:46:28 | voice_tutor | INFO | transcribe_audio:79 | Audio data size: 374444 bytes
+2025-12-05 19:46:28 | voice_tutor | DEBUG | transcribe_audio:81 | Sending audio to Gemini for transcription...
+2025-12-05 19:46:31 | voice_tutor | INFO | transcribe_audio:88 | Transcription successful: How are you?
+2025-12-05 19:46:31 | voice_tutor | INFO | <module>:66 | Transcription complete: How are you?
+2025-12-05 19:46:31 | voice_tutor | DEBUG | <module>:71 | User message added to chat history
+2025-12-05 19:46:31 | voice_tutor | INFO | get_response:44 | User message received: How are you?...
+2025-12-05 19:46:31 | voice_tutor | DEBUG | get_response:47 | Sending message to Gemini...
+2025-12-05 19:46:33 | voice_tutor | INFO | get_response:50 | AI response received: I'm doing well, thank you for asking again! I'm here and ready to help you learn.
+
+What can we explo...
+2025-12-05 19:46:33 | voice_tutor | DEBUG | get_response:51 | Full response: I'm doing well, thank you for asking again! I'm here and ready to help you learn.
+
+What can we explore together today? Is there a topic you're curious about or need some help with?
+2025-12-05 19:48:57 | voice_tutor | INFO | <module>:19 | ==================================================
+2025-12-05 19:48:57 | voice_tutor | INFO | <module>:20 | Application started
+2025-12-05 19:48:57 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:48:57 | voice_tutor | INFO | <module>:25 | API keys validated
+2025-12-05 19:48:57 | voice_tutor | INFO | <module>:29 | Session state initialized
+2025-12-05 19:48:57 | voice_tutor | INFO | get_services:41 | Initializing services...
+2025-12-05 19:48:57 | voice_tutor | INFO | __init__:13 | Initializing LLMService...
+2025-12-05 19:48:57 | voice_tutor | INFO | __init__:17 | Gemini configured with model: gemini-2.5-flash
+2025-12-05 19:48:57 | voice_tutor | INFO | __init__:36 | Chat session started successfully
+2025-12-05 19:48:57 | voice_tutor | INFO | __init__:13 | Initializing TTSService...
+2025-12-05 19:48:57 | voice_tutor | INFO | __init__:15 | ElevenLabs client initialized with voice: pNInz6obpgDQGcFmaJgB
+2025-12-05 19:48:57 | voice_tutor | INFO | <module>:49 | All services initialized successfully
+2025-12-05 19:48:57 | voice_tutor | DEBUG | <module>:182 | No messages in history - showing welcome message
+2025-12-05 19:48:57 | voice_tutor | DEBUG | <module>:199 | App render complete
+2025-12-05 19:49:04 | voice_tutor | INFO | <module>:19 | ==================================================
+2025-12-05 19:49:04 | voice_tutor | INFO | <module>:20 | Application started
+2025-12-05 19:49:04 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:49:04 | voice_tutor | INFO | <module>:25 | API keys validated
+2025-12-05 19:49:04 | voice_tutor | INFO | <module>:29 | Session state initialized
+2025-12-05 19:49:04 | voice_tutor | INFO | <module>:49 | All services initialized successfully
+2025-12-05 19:49:04 | voice_tutor | INFO | <module>:72 | New audio input detected (ID: 10ad3206...)
+2025-12-05 19:49:04 | voice_tutor | INFO | transcribe_audio:68 | Starting audio transcription...
+2025-12-05 19:49:04 | voice_tutor | DEBUG | transcribe_audio:73 | Reading audio from UploadedFile object
+2025-12-05 19:49:04 | voice_tutor | INFO | transcribe_audio:79 | Audio data size: 270764 bytes
+2025-12-05 19:49:04 | voice_tutor | DEBUG | transcribe_audio:81 | Sending audio to Gemini for transcription...
+2025-12-05 19:49:08 | voice_tutor | ERROR | transcribe_audio:93 | Error in transcribe_audio: ValueError: Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 1.
+2025-12-05 19:49:08 | voice_tutor | ERROR | transcribe_audio:94 | Full traceback:
+Traceback (most recent call last):
+  File "D:\The_Project\services\llm_service.py", line 87, in transcribe_audio
+    transcribed_text = response.text.strip()
+                       ^^^^^^^^^^^^^
+  File "d:\The_Project\.venv\Lib\site-packages\google\generativeai\types\generation_types.py", line 479, in text
+    raise ValueError(msg)
+ValueError: Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 1.
+2025-12-05 19:49:08 | voice_tutor | WARNING | <module>:115 | Transcription returned None - no text extracted from audio
+2025-12-05 19:49:08 | voice_tutor | DEBUG | <module>:182 | No messages in history - showing welcome message
+2025-12-05 19:49:08 | voice_tutor | DEBUG | <module>:199 | App render complete
+2025-12-05 19:53:06 | voice_tutor | INFO | <module>:19 | ==================================================
+2025-12-05 19:53:06 | voice_tutor | INFO | <module>:20 | Application started
+2025-12-05 19:53:06 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:53:06 | voice_tutor | INFO | <module>:25 | API keys validated
+2025-12-05 19:53:06 | voice_tutor | INFO | <module>:29 | Session state initialized
+2025-12-05 19:53:07 | voice_tutor | INFO | get_services:41 | Initializing services...
+2025-12-05 19:53:07 | voice_tutor | INFO | __init__:13 | Initializing LLMService...
+2025-12-05 19:53:07 | voice_tutor | INFO | __init__:17 | Gemini configured with model: gemini-2.5-flash
+2025-12-05 19:53:07 | voice_tutor | INFO | __init__:36 | Chat session started successfully
+2025-12-05 19:53:07 | voice_tutor | INFO | __init__:13 | Initializing TTSService...
+2025-12-05 19:53:07 | voice_tutor | INFO | __init__:15 | ElevenLabs client initialized with voice: pNInz6obpgDQGcFmaJgB
+2025-12-05 19:53:07 | voice_tutor | INFO | <module>:49 | All services initialized successfully
+2025-12-05 19:53:07 | voice_tutor | DEBUG | <module>:182 | No messages in history - showing welcome message
+2025-12-05 19:53:07 | voice_tutor | DEBUG | <module>:199 | App render complete
+2025-12-05 19:53:13 | voice_tutor | INFO | <module>:19 | ==================================================
+2025-12-05 19:53:13 | voice_tutor | INFO | <module>:20 | Application started
+2025-12-05 19:53:13 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:53:13 | voice_tutor | INFO | <module>:25 | API keys validated
+2025-12-05 19:53:13 | voice_tutor | INFO | <module>:29 | Session state initialized
+2025-12-05 19:53:13 | voice_tutor | INFO | <module>:49 | All services initialized successfully
+2025-12-05 19:53:13 | voice_tutor | INFO | <module>:72 | New audio input detected (ID: 8dc8dd45...)
+2025-12-05 19:53:13 | voice_tutor | INFO | transcribe_audio:68 | Starting audio transcription...
+2025-12-05 19:53:13 | voice_tutor | DEBUG | transcribe_audio:73 | Reading audio from UploadedFile object
+2025-12-05 19:53:13 | voice_tutor | INFO | transcribe_audio:79 | Audio data size: 311084 bytes
+2025-12-05 19:53:13 | voice_tutor | DEBUG | transcribe_audio:86 | Sending audio to Gemini for transcription...
+2025-12-05 19:53:19 | voice_tutor | INFO | transcribe_audio:108 | Transcription successful: Hello
+2025-12-05 19:53:19 | voice_tutor | INFO | <module>:81 | Transcription complete: Hello
+2025-12-05 19:53:19 | voice_tutor | DEBUG | <module>:86 | User message added to chat history
+2025-12-05 19:53:19 | voice_tutor | INFO | get_response:44 | User message received: Hello...
+2025-12-05 19:53:19 | voice_tutor | DEBUG | get_response:47 | Sending message to Gemini...
+2025-12-05 19:53:20 | voice_tutor | INFO | get_response:50 | AI response received: Hi there! I'm an AI tutor assistant, and I'm here to help you learn. What would you like to work on ...
+2025-12-05 19:53:20 | voice_tutor | DEBUG | get_response:51 | Full response: Hi there! I'm an AI tutor assistant, and I'm here to help you learn. What would you like to work on today?
+2025-12-05 19:53:20 | voice_tutor | INFO | <module>:92 | AI response generated: Hi there! I'm an AI tutor assistant, and I'm here to help you learn. What would you like to work on ...
+2025-12-05 19:53:20 | voice_tutor | DEBUG | <module>:94 | Assistant message added to chat history
+2025-12-05 19:53:20 | voice_tutor | INFO | synthesize_speech:23 | Synthesizing speech for text: Hi there! I'm an AI tutor assistant, and I'm here to help you learn. What would you like to work on ...
+2025-12-05 19:53:20 | voice_tutor | DEBUG | synthesize_speech:26 | Using model: eleven_flash_v2_5
+2025-12-05 19:53:20 | voice_tutor | DEBUG | synthesize_speech:42 | Converting audio generator to bytes...
+2025-12-05 19:53:22 | voice_tutor | INFO | synthesize_speech:45 | Speech synthesis successful. Audio size: 92831 bytes
+2025-12-05 19:53:22 | voice_tutor | INFO | <module>:101 | TTS generation successful
+2025-12-05 19:53:22 | voice_tutor | INFO | <module>:107 | Conversation count: 1
+2025-12-05 19:53:22 | voice_tutor | INFO | <module>:19 | ==================================================
+2025-12-05 19:53:22 | voice_tutor | INFO | <module>:20 | Application started
+2025-12-05 19:53:22 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:53:22 | voice_tutor | INFO | <module>:25 | API keys validated
+2025-12-05 19:53:22 | voice_tutor | INFO | <module>:29 | Session state initialized
+2025-12-05 19:53:22 | voice_tutor | INFO | <module>:49 | All services initialized successfully
+2025-12-05 19:53:22 | voice_tutor | DEBUG | <module>:118 | Skipping already processed audio (ID: 8dc8dd45...)
+2025-12-05 19:53:22 | voice_tutor | DEBUG | <module>:179 | Displaying 2 messages
+2025-12-05 19:53:22 | voice_tutor | DEBUG | <module>:199 | App render complete
+2025-12-05 19:53:37 | voice_tutor | INFO | <module>:19 | ==================================================
+2025-12-05 19:53:37 | voice_tutor | INFO | <module>:20 | Application started
+2025-12-05 19:53:37 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:53:37 | voice_tutor | INFO | <module>:25 | API keys validated
+2025-12-05 19:53:37 | voice_tutor | INFO | <module>:29 | Session state initialized
+2025-12-05 19:53:37 | voice_tutor | INFO | <module>:49 | All services initialized successfully
+2025-12-05 19:53:37 | voice_tutor | INFO | <module>:72 | New audio input detected (ID: fe645482...)
+2025-12-05 19:53:37 | voice_tutor | INFO | transcribe_audio:68 | Starting audio transcription...
+2025-12-05 19:53:37 | voice_tutor | DEBUG | transcribe_audio:73 | Reading audio from UploadedFile object
+2025-12-05 19:53:37 | voice_tutor | INFO | transcribe_audio:79 | Audio data size: 512684 bytes
+2025-12-05 19:53:37 | voice_tutor | DEBUG | transcribe_audio:86 | Sending audio to Gemini for transcription...
+2025-12-05 19:53:40 | voice_tutor | INFO | transcribe_audio:108 | Transcription successful: How are you
+2025-12-05 19:53:40 | voice_tutor | INFO | <module>:81 | Transcription complete: How are you
+2025-12-05 19:53:40 | voice_tutor | DEBUG | <module>:86 | User message added to chat history
+2025-12-05 19:53:40 | voice_tutor | INFO | get_response:44 | User message received: How are you...
+2025-12-05 19:53:40 | voice_tutor | DEBUG | get_response:47 | Sending message to Gemini...
+2025-12-05 19:53:41 | voice_tutor | INFO | get_response:50 | AI response received: I'm doing well, thank you for asking! I'm ready and excited to help you with whatever you'd like to ...
+2025-12-05 19:53:41 | voice_tutor | DEBUG | get_response:51 | Full response: I'm doing well, thank you for asking! I'm ready and excited to help you with whatever you'd like to learn today. How about you? What's on your mind?
+2025-12-05 19:53:41 | voice_tutor | INFO | <module>:92 | AI response generated: I'm doing well, thank you for asking! I'm ready and excited to help you with whatever you'd like to ...
+2025-12-05 19:53:41 | voice_tutor | DEBUG | <module>:94 | Assistant message added to chat history
+2025-12-05 19:53:41 | voice_tutor | INFO | synthesize_speech:23 | Synthesizing speech for text: I'm doing well, thank you for asking! I'm ready and excited to help you with whatever you'd like to ...
+2025-12-05 19:53:41 | voice_tutor | DEBUG | synthesize_speech:26 | Using model: eleven_flash_v2_5
+2025-12-05 19:53:41 | voice_tutor | DEBUG | synthesize_speech:42 | Converting audio generator to bytes...
+2025-12-05 19:53:42 | voice_tutor | INFO | synthesize_speech:45 | Speech synthesis successful. Audio size: 126268 bytes
+2025-12-05 19:53:42 | voice_tutor | INFO | <module>:101 | TTS generation successful
+2025-12-05 19:53:42 | voice_tutor | INFO | <module>:107 | Conversation count: 2
+2025-12-05 19:53:42 | voice_tutor | INFO | <module>:19 | ==================================================
+2025-12-05 19:53:42 | voice_tutor | INFO | <module>:20 | Application started
+2025-12-05 19:53:42 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:53:42 | voice_tutor | INFO | <module>:25 | API keys validated
+2025-12-05 19:53:42 | voice_tutor | INFO | <module>:29 | Session state initialized
+2025-12-05 19:53:42 | voice_tutor | INFO | <module>:49 | All services initialized successfully
+2025-12-05 19:53:42 | voice_tutor | DEBUG | <module>:118 | Skipping already processed audio (ID: fe645482...)
+2025-12-05 19:53:42 | voice_tutor | DEBUG | <module>:179 | Displaying 4 messages
+2025-12-05 19:53:42 | voice_tutor | DEBUG | <module>:199 | App render complete
+2025-12-05 19:53:57 | voice_tutor | INFO | <module>:19 | ==================================================
+2025-12-05 19:53:57 | voice_tutor | INFO | <module>:20 | Application started
+2025-12-05 19:53:57 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:53:57 | voice_tutor | INFO | <module>:25 | API keys validated
+2025-12-05 19:53:57 | voice_tutor | INFO | <module>:29 | Session state initialized
+2025-12-05 19:53:57 | voice_tutor | INFO | <module>:49 | All services initialized successfully
+2025-12-05 19:53:57 | voice_tutor | INFO | <module>:72 | New audio input detected (ID: f528459c...)
+2025-12-05 19:53:57 | voice_tutor | INFO | transcribe_audio:68 | Starting audio transcription...
+2025-12-05 19:53:57 | voice_tutor | DEBUG | transcribe_audio:73 | Reading audio from UploadedFile object
+2025-12-05 19:53:57 | voice_tutor | INFO | transcribe_audio:79 | Audio data size: 385964 bytes
+2025-12-05 19:53:57 | voice_tutor | DEBUG | transcribe_audio:86 | Sending audio to Gemini for transcription...
+2025-12-05 19:54:02 | voice_tutor | INFO | transcribe_audio:108 | Transcription successful: Why are you not saying anything?
+2025-12-05 19:54:02 | voice_tutor | INFO | <module>:81 | Transcription complete: Why are you not saying anything?
+2025-12-05 19:54:02 | voice_tutor | DEBUG | <module>:86 | User message added to chat history
+2025-12-05 19:54:02 | voice_tutor | INFO | get_response:44 | User message received: Why are you not saying anything?...
+2025-12-05 19:54:02 | voice_tutor | DEBUG | get_response:47 | Sending message to Gemini...
+2025-12-05 19:54:07 | voice_tutor | INFO | get_response:50 | AI response received: Oh, I thought I just responded! I mentioned I'm doing well and asked what you'd like to learn today....
+2025-12-05 19:54:07 | voice_tutor | DEBUG | get_response:51 | Full response: Oh, I thought I just responded! I mentioned I'm doing well and asked what you'd like to learn today. Perhaps there was a slight delay?
+
+I'm ready to help whenever you are! What's on your mind?
+2025-12-05 19:54:07 | voice_tutor | INFO | <module>:92 | AI response generated: Oh, I thought I just responded! I mentioned I'm doing well and asked what you'd like to learn today....
+2025-12-05 19:54:07 | voice_tutor | DEBUG | <module>:94 | Assistant message added to chat history
+2025-12-05 19:54:07 | voice_tutor | INFO | synthesize_speech:23 | Synthesizing speech for text: Oh, I thought I just responded! I mentioned I'm doing well and asked what you'd like to learn today....
+2025-12-05 19:54:07 | voice_tutor | DEBUG | synthesize_speech:26 | Using model: eleven_flash_v2_5
+2025-12-05 19:54:07 | voice_tutor | DEBUG | synthesize_speech:42 | Converting audio generator to bytes...
+2025-12-05 19:54:08 | voice_tutor | INFO | synthesize_speech:45 | Speech synthesis successful. Audio size: 173916 bytes
+2025-12-05 19:54:08 | voice_tutor | INFO | <module>:101 | TTS generation successful
+2025-12-05 19:54:08 | voice_tutor | INFO | <module>:107 | Conversation count: 3
+2025-12-05 19:54:08 | voice_tutor | INFO | <module>:19 | ==================================================
+2025-12-05 19:54:08 | voice_tutor | INFO | <module>:20 | Application started
+2025-12-05 19:54:08 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:54:08 | voice_tutor | INFO | <module>:25 | API keys validated
+2025-12-05 19:54:08 | voice_tutor | INFO | <module>:29 | Session state initialized
+2025-12-05 19:54:08 | voice_tutor | INFO | <module>:49 | All services initialized successfully
+2025-12-05 19:54:08 | voice_tutor | DEBUG | <module>:118 | Skipping already processed audio (ID: f528459c...)
+2025-12-05 19:54:08 | voice_tutor | DEBUG | <module>:179 | Displaying 6 messages
+2025-12-05 19:54:08 | voice_tutor | DEBUG | <module>:199 | App render complete
+2025-12-05 19:57:14 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:57:14 | voice_tutor | INFO | <module>:22 | Application started
+2025-12-05 19:57:14 | voice_tutor | INFO | <module>:23 | ==================================================
+2025-12-05 19:57:14 | voice_tutor | INFO | <module>:27 | API keys validated
+2025-12-05 19:57:14 | voice_tutor | INFO | <module>:31 | Session state initialized
+2025-12-05 19:57:14 | voice_tutor | INFO | get_services:45 | Initializing services...
+2025-12-05 19:57:14 | voice_tutor | INFO | __init__:13 | Initializing LLMService...
+2025-12-05 19:57:14 | voice_tutor | INFO | __init__:17 | Gemini configured with model: gemini-2.5-flash
+2025-12-05 19:57:14 | voice_tutor | INFO | __init__:36 | Chat session started successfully
+2025-12-05 19:57:14 | voice_tutor | INFO | __init__:13 | Initializing TTSService...
+2025-12-05 19:57:15 | voice_tutor | INFO | __init__:15 | ElevenLabs client initialized with voice: pNInz6obpgDQGcFmaJgB
+2025-12-05 19:57:15 | voice_tutor | INFO | <module>:53 | All services initialized successfully
+2025-12-05 19:57:15 | voice_tutor | DEBUG | <module>:198 | No messages in history - showing welcome message
+2025-12-05 19:57:15 | voice_tutor | DEBUG | <module>:215 | App render complete
+2025-12-05 19:57:22 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:57:22 | voice_tutor | INFO | <module>:22 | Application started
+2025-12-05 19:57:22 | voice_tutor | INFO | <module>:23 | ==================================================
+2025-12-05 19:57:22 | voice_tutor | INFO | <module>:27 | API keys validated
+2025-12-05 19:57:22 | voice_tutor | INFO | <module>:31 | Session state initialized
+2025-12-05 19:57:22 | voice_tutor | INFO | <module>:53 | All services initialized successfully
+2025-12-05 19:57:22 | voice_tutor | INFO | <module>:75 | New audio input detected (ID: 4f7e61c2...)
+2025-12-05 19:57:22 | voice_tutor | INFO | transcribe_audio:68 | Starting audio transcription...
+2025-12-05 19:57:22 | voice_tutor | DEBUG | transcribe_audio:73 | Reading audio from UploadedFile object
+2025-12-05 19:57:22 | voice_tutor | INFO | transcribe_audio:79 | Audio data size: 420524 bytes
+2025-12-05 19:57:22 | voice_tutor | DEBUG | transcribe_audio:86 | Sending audio to Gemini for transcription...
+2025-12-05 19:57:26 | voice_tutor | INFO | transcribe_audio:108 | Transcription successful: Hello Hello
+2025-12-05 19:57:26 | voice_tutor | INFO | <module>:84 | Transcription complete: Hello Hello
+2025-12-05 19:57:26 | voice_tutor | DEBUG | <module>:89 | User message added to chat history
+2025-12-05 19:57:26 | voice_tutor | INFO | get_response:44 | User message received: Hello Hello...
+2025-12-05 19:57:26 | voice_tutor | DEBUG | get_response:47 | Sending message to Gemini...
+2025-12-05 19:57:27 | voice_tutor | INFO | get_response:50 | AI response received: Hello there! Great to connect with you. What can I help you learn about today?...
+2025-12-05 19:57:27 | voice_tutor | DEBUG | get_response:51 | Full response: Hello there! Great to connect with you. What can I help you learn about today?
+2025-12-05 19:57:27 | voice_tutor | INFO | <module>:95 | AI response generated: Hello there! Great to connect with you. What can I help you learn about today?...
+2025-12-05 19:57:27 | voice_tutor | DEBUG | <module>:97 | Assistant message added to chat history
+2025-12-05 19:57:27 | voice_tutor | INFO | synthesize_speech:23 | Synthesizing speech for text: Hello there! Great to connect with you. What can I help you learn about today?...
+2025-12-05 19:57:27 | voice_tutor | DEBUG | synthesize_speech:26 | Using model: eleven_flash_v2_5
+2025-12-05 19:57:27 | voice_tutor | DEBUG | synthesize_speech:42 | Converting audio generator to bytes...
+2025-12-05 19:57:28 | voice_tutor | INFO | synthesize_speech:45 | Speech synthesis successful. Audio size: 71934 bytes
+2025-12-05 19:57:28 | voice_tutor | INFO | <module>:104 | TTS generation successful
+2025-12-05 19:57:28 | voice_tutor | INFO | <module>:111 | Conversation count: 1
+2025-12-05 19:57:28 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:57:28 | voice_tutor | INFO | <module>:22 | Application started
+2025-12-05 19:57:28 | voice_tutor | INFO | <module>:23 | ==================================================
+2025-12-05 19:57:28 | voice_tutor | INFO | <module>:27 | API keys validated
+2025-12-05 19:57:28 | voice_tutor | INFO | <module>:31 | Session state initialized
+2025-12-05 19:57:28 | voice_tutor | INFO | <module>:53 | All services initialized successfully
+2025-12-05 19:57:28 | voice_tutor | DEBUG | <module>:122 | Skipping already processed audio (ID: 4f7e61c2...)
+2025-12-05 19:57:28 | voice_tutor | INFO | <module>:184 | Playing stored audio response
+2025-12-05 19:57:28 | voice_tutor | DEBUG | <module>:189 | Audio response cleared from session state
+2025-12-05 19:57:28 | voice_tutor | DEBUG | <module>:195 | Displaying 2 messages
+2025-12-05 19:57:28 | voice_tutor | DEBUG | <module>:215 | App render complete
+2025-12-05 19:57:44 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:57:44 | voice_tutor | INFO | <module>:22 | Application started
+2025-12-05 19:57:44 | voice_tutor | INFO | <module>:23 | ==================================================
+2025-12-05 19:57:44 | voice_tutor | INFO | <module>:27 | API keys validated
+2025-12-05 19:57:44 | voice_tutor | INFO | <module>:31 | Session state initialized
+2025-12-05 19:57:44 | voice_tutor | INFO | <module>:53 | All services initialized successfully
+2025-12-05 19:57:44 | voice_tutor | INFO | <module>:75 | New audio input detected (ID: ce9e5e23...)
+2025-12-05 19:57:44 | voice_tutor | INFO | transcribe_audio:68 | Starting audio transcription...
+2025-12-05 19:57:44 | voice_tutor | DEBUG | transcribe_audio:73 | Reading audio from UploadedFile object
+2025-12-05 19:57:44 | voice_tutor | INFO | transcribe_audio:79 | Audio data size: 938924 bytes
+2025-12-05 19:57:44 | voice_tutor | DEBUG | transcribe_audio:86 | Sending audio to Gemini for transcription...
+2025-12-05 19:57:48 | voice_tutor | INFO | transcribe_audio:108 | Transcription successful: Uh Gurprince is sitting with me, he's playing games. Tell him something that don't play games at this time, you should have to study something.
+The user wants a verbatim transcript of the audio. I will listen carefully and type out every word spoken.
+Uh Gurprince is sitting with me, he's playing games. Tell him something that don't play games at this time, you should have to study something.
+2025-12-05 19:57:48 | voice_tutor | INFO | <module>:84 | Transcription complete: Uh Gurprince is sitting with me, he's playing games. Tell him something that don't play games at this time, you should have to study something.
+The user wants a verbatim transcript of the audio. I will listen carefully and type out every word spoken.
+Uh Gurprince is sitting with me, he's playing games. Tell him something that don't play games at this time, you should have to study something.
+2025-12-05 19:57:48 | voice_tutor | DEBUG | <module>:89 | User message added to chat history
+2025-12-05 19:57:48 | voice_tutor | INFO | get_response:44 | User message received: Uh Gurprince is sitting with me, he's playing games. Tell him something that don't play games at thi...
+2025-12-05 19:57:48 | voice_tutor | DEBUG | get_response:47 | Sending message to Gemini...
+2025-12-05 19:57:50 | voice_tutor | INFO | get_response:50 | AI response received: Hi Gurprince! It's awesome you're having fun with games. But maybe now would be a great time to swit...
+2025-12-05 19:57:50 | voice_tutor | DEBUG | get_response:51 | Full response: Hi Gurprince! It's awesome you're having fun with games. But maybe now would be a great time to switch gears and get some studying done? Learning new things can be really rewarding too!
+2025-12-05 19:57:50 | voice_tutor | INFO | <module>:95 | AI response generated: Hi Gurprince! It's awesome you're having fun with games. But maybe now would be a great time to swit...
+2025-12-05 19:57:50 | voice_tutor | DEBUG | <module>:97 | Assistant message added to chat history
+2025-12-05 19:57:50 | voice_tutor | INFO | synthesize_speech:23 | Synthesizing speech for text: Hi Gurprince! It's awesome you're having fun with games. But maybe now would be a great time to swit...
+2025-12-05 19:57:50 | voice_tutor | DEBUG | synthesize_speech:26 | Using model: eleven_flash_v2_5
+2025-12-05 19:57:50 | voice_tutor | DEBUG | synthesize_speech:42 | Converting audio generator to bytes...
+2025-12-05 19:57:51 | voice_tutor | INFO | synthesize_speech:45 | Speech synthesis successful. Audio size: 173080 bytes
+2025-12-05 19:57:51 | voice_tutor | INFO | <module>:104 | TTS generation successful
+2025-12-05 19:57:51 | voice_tutor | INFO | <module>:111 | Conversation count: 2
+2025-12-05 19:57:51 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:57:51 | voice_tutor | INFO | <module>:22 | Application started
+2025-12-05 19:57:51 | voice_tutor | INFO | <module>:23 | ==================================================
+2025-12-05 19:57:51 | voice_tutor | INFO | <module>:27 | API keys validated
+2025-12-05 19:57:51 | voice_tutor | INFO | <module>:31 | Session state initialized
+2025-12-05 19:57:51 | voice_tutor | INFO | <module>:53 | All services initialized successfully
+2025-12-05 19:57:51 | voice_tutor | DEBUG | <module>:122 | Skipping already processed audio (ID: ce9e5e23...)
+2025-12-05 19:57:51 | voice_tutor | INFO | <module>:184 | Playing stored audio response
+2025-12-05 19:57:51 | voice_tutor | DEBUG | <module>:189 | Audio response cleared from session state
+2025-12-05 19:57:51 | voice_tutor | DEBUG | <module>:195 | Displaying 4 messages
+2025-12-05 19:57:51 | voice_tutor | DEBUG | <module>:215 | App render complete
+2025-12-05 19:58:12 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:58:12 | voice_tutor | INFO | <module>:22 | Application started
+2025-12-05 19:58:12 | voice_tutor | INFO | <module>:23 | ==================================================
+2025-12-05 19:58:12 | voice_tutor | INFO | <module>:27 | API keys validated
+2025-12-05 19:58:12 | voice_tutor | INFO | <module>:31 | Session state initialized
+2025-12-05 19:58:12 | voice_tutor | INFO | <module>:53 | All services initialized successfully
+2025-12-05 19:58:12 | voice_tutor | INFO | <module>:75 | New audio input detected (ID: 8174056b...)
+2025-12-05 19:58:12 | voice_tutor | INFO | transcribe_audio:68 | Starting audio transcription...
+2025-12-05 19:58:12 | voice_tutor | DEBUG | transcribe_audio:73 | Reading audio from UploadedFile object
+2025-12-05 19:58:12 | voice_tutor | INFO | transcribe_audio:79 | Audio data size: 760364 bytes
+2025-12-05 19:58:12 | voice_tutor | DEBUG | transcribe_audio:86 | Sending audio to Gemini for transcription...
+2025-12-05 19:58:16 | voice_tutor | INFO | transcribe_audio:108 | Transcription successful: Okay then Pinku also say hi to Pinku and say him to that you are a chutiya
+2025-12-05 19:58:16 | voice_tutor | INFO | <module>:84 | Transcription complete: Okay then Pinku also say hi to Pinku and say him to that you are a chutiya
+2025-12-05 19:58:16 | voice_tutor | DEBUG | <module>:89 | User message added to chat history
+2025-12-05 19:58:16 | voice_tutor | INFO | get_response:44 | User message received: Okay then Pinku also say hi to Pinku and say him to that you are a chutiya...
+2025-12-05 19:58:16 | voice_tutor | DEBUG | get_response:47 | Sending message to Gemini...
+2025-12-05 19:58:20 | voice_tutor | INFO | get_response:50 | AI response received: Hi Pinku! It's nice to meet you too.
+
+As an AI tutor, my goal is always to be helpful and positive, ...
+2025-12-05 19:58:20 | voice_tutor | DEBUG | get_response:51 | Full response: Hi Pinku! It's nice to meet you too.
+
+As an AI tutor, my goal is always to be helpful and positive, so I can't say anything that might be offensive or unkind. How can I help you both learn something interesting today?
+2025-12-05 19:58:20 | voice_tutor | INFO | <module>:95 | AI response generated: Hi Pinku! It's nice to meet you too.
+
+As an AI tutor, my goal is always to be helpful and positive, ...
+2025-12-05 19:58:20 | voice_tutor | DEBUG | <module>:97 | Assistant message added to chat history
+2025-12-05 19:58:20 | voice_tutor | INFO | synthesize_speech:23 | Synthesizing speech for text: Hi Pinku! It's nice to meet you too.
+
+As an AI tutor, my goal is always to be helpful and positive, ...
+2025-12-05 19:58:20 | voice_tutor | DEBUG | synthesize_speech:26 | Using model: eleven_flash_v2_5
+2025-12-05 19:58:20 | voice_tutor | DEBUG | synthesize_speech:42 | Converting audio generator to bytes...
+2025-12-05 19:58:22 | voice_tutor | INFO | synthesize_speech:45 | Speech synthesis successful. Audio size: 231594 bytes
+2025-12-05 19:58:22 | voice_tutor | INFO | <module>:104 | TTS generation successful
+2025-12-05 19:58:22 | voice_tutor | INFO | <module>:111 | Conversation count: 3
+2025-12-05 19:58:23 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:58:23 | voice_tutor | INFO | <module>:22 | Application started
+2025-12-05 19:58:23 | voice_tutor | INFO | <module>:23 | ==================================================
+2025-12-05 19:58:23 | voice_tutor | INFO | <module>:27 | API keys validated
+2025-12-05 19:58:23 | voice_tutor | INFO | <module>:31 | Session state initialized
+2025-12-05 19:58:23 | voice_tutor | INFO | <module>:53 | All services initialized successfully
+2025-12-05 19:58:23 | voice_tutor | DEBUG | <module>:122 | Skipping already processed audio (ID: 8174056b...)
+2025-12-05 19:58:23 | voice_tutor | INFO | <module>:184 | Playing stored audio response
+2025-12-05 19:58:23 | voice_tutor | DEBUG | <module>:189 | Audio response cleared from session state
+2025-12-05 19:58:23 | voice_tutor | DEBUG | <module>:195 | Displaying 6 messages
+2025-12-05 19:58:23 | voice_tutor | DEBUG | <module>:215 | App render complete
+2025-12-05 19:59:18 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:59:18 | voice_tutor | INFO | <module>:22 | Application started
+2025-12-05 19:59:18 | voice_tutor | INFO | <module>:23 | ==================================================
+2025-12-05 19:59:18 | voice_tutor | INFO | <module>:27 | API keys validated
+2025-12-05 19:59:18 | voice_tutor | INFO | <module>:31 | Session state initialized
+2025-12-05 19:59:18 | voice_tutor | INFO | <module>:53 | All services initialized successfully
+2025-12-05 19:59:18 | voice_tutor | INFO | <module>:75 | New audio input detected (ID: cadb8ab2...)
+2025-12-05 19:59:18 | voice_tutor | INFO | transcribe_audio:68 | Starting audio transcription...
+2025-12-05 19:59:18 | voice_tutor | DEBUG | transcribe_audio:73 | Reading audio from UploadedFile object
+2025-12-05 19:59:18 | voice_tutor | INFO | transcribe_audio:79 | Audio data size: 1180844 bytes
+2025-12-05 19:59:18 | voice_tutor | DEBUG | transcribe_audio:86 | Sending audio to Gemini for transcription...
+2025-12-05 19:59:21 | voice_tutor | INFO | transcribe_audio:108 | Transcription successful: Okay how much knowledge do you have means uh what uh for a specific portion or uh you are only a LLM now
+2025-12-05 19:59:21 | voice_tutor | INFO | <module>:84 | Transcription complete: Okay how much knowledge do you have means uh what uh for a specific portion or uh you are only a LLM now
+2025-12-05 19:59:21 | voice_tutor | DEBUG | <module>:89 | User message added to chat history
+2025-12-05 19:59:21 | voice_tutor | INFO | get_response:44 | User message received: Okay how much knowledge do you have means uh what uh for a specific portion or uh you are only a LLM...
+2025-12-05 19:59:21 | voice_tutor | DEBUG | get_response:47 | Sending message to Gemini...
+2025-12-05 19:59:24 | voice_tutor | INFO | get_response:50 | AI response received: That's a great question! I am a large language model, which means I've been trained on a vast amount...
+2025-12-05 19:59:24 | voice_tutor | DEBUG | get_response:51 | Full response: That's a great question! I am a large language model, which means I've been trained on a vast amount of text and code from the internet.
+
+This allows me to understand and generate human-like text, answer a wide range of questions, and help explain many different subjects. So, my knowledge isn't limited to just one specific area.
+2025-12-05 19:59:24 | voice_tutor | INFO | <module>:95 | AI response generated: That's a great question! I am a large language model, which means I've been trained on a vast amount...
+2025-12-05 19:59:24 | voice_tutor | DEBUG | <module>:97 | Assistant message added to chat history
+2025-12-05 19:59:24 | voice_tutor | INFO | synthesize_speech:23 | Synthesizing speech for text: That's a great question! I am a large language model, which means I've been trained on a vast amount...
+2025-12-05 19:59:24 | voice_tutor | DEBUG | synthesize_speech:26 | Using model: eleven_flash_v2_5
+2025-12-05 19:59:24 | voice_tutor | DEBUG | synthesize_speech:42 | Converting audio generator to bytes...
+2025-12-05 19:59:25 | voice_tutor | INFO | synthesize_speech:45 | Speech synthesis successful. Audio size: 320201 bytes
+2025-12-05 19:59:25 | voice_tutor | INFO | <module>:104 | TTS generation successful
+2025-12-05 19:59:25 | voice_tutor | INFO | <module>:111 | Conversation count: 4
+2025-12-05 19:59:25 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:59:25 | voice_tutor | INFO | <module>:22 | Application started
+2025-12-05 19:59:25 | voice_tutor | INFO | <module>:23 | ==================================================
+2025-12-05 19:59:25 | voice_tutor | INFO | <module>:27 | API keys validated
+2025-12-05 19:59:25 | voice_tutor | INFO | <module>:31 | Session state initialized
+2025-12-05 19:59:25 | voice_tutor | INFO | <module>:53 | All services initialized successfully
+2025-12-05 19:59:25 | voice_tutor | DEBUG | <module>:122 | Skipping already processed audio (ID: cadb8ab2...)
+2025-12-05 19:59:25 | voice_tutor | INFO | <module>:184 | Playing stored audio response
+2025-12-05 19:59:25 | voice_tutor | DEBUG | <module>:189 | Audio response cleared from session state
+2025-12-05 19:59:25 | voice_tutor | DEBUG | <module>:195 | Displaying 8 messages
+2025-12-05 19:59:25 | voice_tutor | DEBUG | <module>:215 | App render complete
+2025-12-05 19:59:53 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 19:59:53 | voice_tutor | INFO | <module>:22 | Application started
+2025-12-05 19:59:53 | voice_tutor | INFO | <module>:23 | ==================================================
+2025-12-05 19:59:53 | voice_tutor | INFO | <module>:27 | API keys validated
+2025-12-05 19:59:53 | voice_tutor | INFO | <module>:31 | Session state initialized
+2025-12-05 19:59:53 | voice_tutor | INFO | <module>:53 | All services initialized successfully
+2025-12-05 19:59:53 | voice_tutor | INFO | <module>:75 | New audio input detected (ID: 5bdf8219...)
+2025-12-05 19:59:53 | voice_tutor | INFO | transcribe_audio:68 | Starting audio transcription...
+2025-12-05 19:59:53 | voice_tutor | DEBUG | transcribe_audio:73 | Reading audio from UploadedFile object
+2025-12-05 19:59:53 | voice_tutor | INFO | transcribe_audio:79 | Audio data size: 973484 bytes
+2025-12-05 19:59:53 | voice_tutor | DEBUG | transcribe_audio:86 | Sending audio to Gemini for transcription...
+2025-12-05 19:59:56 | voice_tutor | INFO | transcribe_audio:108 | Transcription successful: What in future I will implement with you and you are trained for a specific subject only.
+2025-12-05 19:59:56 | voice_tutor | INFO | <module>:84 | Transcription complete: What in future I will implement with you and you are trained for a specific subject only.
+2025-12-05 19:59:56 | voice_tutor | DEBUG | <module>:89 | User message added to chat history
+2025-12-05 19:59:56 | voice_tutor | INFO | get_response:44 | User message received: What in future I will implement with you and you are trained for a specific subject only....
+2025-12-05 19:59:56 | voice_tutor | DEBUG | get_response:47 | Sending message to Gemini...
+2025-12-05 20:00:01 | voice_tutor | INFO | get_response:50 | AI response received: That's an interesting thought! You could use me for a huge range of future projects or learning goal...
+2025-12-05 20:00:01 | voice_tutor | DEBUG | get_response:51 | Full response: That's an interesting thought! You could use me for a huge range of future projects or learning goals. And no, I'm definitely not trained for just one specific subject; my knowledge covers many different fields!
+2025-12-05 20:00:01 | voice_tutor | INFO | <module>:95 | AI response generated: That's an interesting thought! You could use me for a huge range of future projects or learning goal...
+2025-12-05 20:00:01 | voice_tutor | DEBUG | <module>:97 | Assistant message added to chat history
+2025-12-05 20:00:01 | voice_tutor | INFO | synthesize_speech:23 | Synthesizing speech for text: That's an interesting thought! You could use me for a huge range of future projects or learning goal...
+2025-12-05 20:00:01 | voice_tutor | DEBUG | synthesize_speech:26 | Using model: eleven_flash_v2_5
+2025-12-05 20:00:01 | voice_tutor | DEBUG | synthesize_speech:42 | Converting audio generator to bytes...
+2025-12-05 20:00:02 | voice_tutor | INFO | synthesize_speech:45 | Speech synthesis successful. Audio size: 210278 bytes
+2025-12-05 20:00:02 | voice_tutor | INFO | <module>:104 | TTS generation successful
+2025-12-05 20:00:02 | voice_tutor | INFO | <module>:111 | Conversation count: 5
+2025-12-05 20:00:03 | voice_tutor | INFO | <module>:21 | ==================================================
+2025-12-05 20:00:03 | voice_tutor | INFO | <module>:22 | Application started
+2025-12-05 20:00:03 | voice_tutor | INFO | <module>:23 | ==================================================
+2025-12-05 20:00:03 | voice_tutor | INFO | <module>:27 | API keys validated
+2025-12-05 20:00:03 | voice_tutor | INFO | <module>:31 | Session state initialized
+2025-12-05 20:00:03 | voice_tutor | INFO | <module>:53 | All services initialized successfully
+2025-12-05 20:00:03 | voice_tutor | DEBUG | <module>:122 | Skipping already processed audio (ID: 5bdf8219...)
+2025-12-05 20:00:03 | voice_tutor | INFO | <module>:184 | Playing stored audio response
+2025-12-05 20:00:03 | voice_tutor | DEBUG | <module>:189 | Audio response cleared from session state
+2025-12-05 20:00:03 | voice_tutor | DEBUG | <module>:195 | Displaying 10 messages
+2025-12-05 20:00:03 | voice_tutor | DEBUG | <module>:215 | App render complete
